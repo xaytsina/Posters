@@ -1,0 +1,56 @@
+body {
+  height: auto;
+
+  background: url(../images/Group_poster.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Roboto', sans-serif;
+}
+main {
+  padding: 40px;
+}
+.main-description {
+  display: flex;
+}
+.main-description h1 {
+  text-align: left;
+  text-transform: uppercase;
+
+  font-size: 48px;
+  font-weight: 500;
+}
+.main-description h2 {
+  margin-top: 20px;
+
+  text-transform: uppercase;
+
+  font-size: 36px;
+}
+
+.left-content img {
+  width: 390px;
+}
+.green-tree-container {
+  width: 800px;
+  height: 200px;
+  margin: 100px 0 0 200px;
+
+  background: rgba(146, 241, 72, 0.7);
+}
+.strange-container {
+  position: absolute;
+  z-index: 1;
+  top: 150px;
+
+  width: 500px;
+  height: 500px;
+  margin: 100px 0 0 300px;
+
+  background: url(../images/poster-bg.png);
+  background-size: cover;
+}
