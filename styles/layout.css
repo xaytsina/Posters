@@ -1,563 +1,567 @@
 html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.main_header {
+position: static;
+
+background: rgba(146, 241, 72, 0.7);
 }
 
 header {
-    position: absolute;
-    z-index: 1;
+  position: absolute;
+  z-index: 1;
 
-    width: 100%;
-    height: 150px;
+  width: 100%;
+  height: 150px;
 
-    font-family: 'Roboto',sans-serif;
+  font-family: 'Roboto',sans-serif;
 }
+
+
+
 header > div {
-    margin-top: 30px;
-    margin-left: 30px;
+  margin-top: 30px;
+  margin-left: 30px;
+
+background-color: rgba(146, 241, 72, 0.7);
 }
 
-header > div > #title {
-    display: block;
+header > div > .title {
+  display: block;
 
-    width: 20%;
+  width: 20%;
 
-    text-transform: uppercase;
+  text-transform: uppercase;
 
-    font-size: 2.3vw;
-    font-weight: 500;
+  font-size: 2.3vw;
+  font-weight: 500;
 }
 
-header > div > #description {
-    display: block;
+header > div > .description {
+  display: block;
 
-    margin-top: 15px;
+  margin-top: 15px;
 
-    text-transform: uppercase;
+  text-transform: uppercase;
 
-    font-size: 1.6vw;
-    font-weight: 300;
+  font-size: 1.6vw;
+  font-weight: 300;
 }
 
 header > div > img {
-    width: 19vw;
-    height: auto;
+  width: 19vw;
+  height: auto;
+  margin-right: 50%;
 }
 
-#main_part {
-    display: flex;
-    flex-direction: row;
+.main_part {
+  display: flex;
+  flex-direction: row;
 
-    width: 100%;
+  width: 100%;
 }
 
-#main_part > #plaint_white {
-    width: 100%;
-    height: 100%;
+.main_part > .plaint_white {
+  width: 100%;
+  height: 100%;
 }
 
-#main_part > #grey_paper {
-    position: absolute;
-    top: 15%;
-    left: 40%;
+.main_part > .grey_paper {
+  position: absolute;
+  top: 15%;
+  left: 40%;
 
-    width: 50%;
-    height: 50%;
+  width: 50%;
+  height: 50%;
 }
 
-#main_part > #grey_paper > #green_shape {
-    display: block;
+.main_part > .grey_paper > .green_shape {
+  display: block;
 
-    width: 100%;
-    height: 30%;
+  width: 100%;
+  height: 30%;
 
-    background-color: rgba(146, 241, 72, 0.7);
+  background-color: rgba(146, 241, 72, 0.7);
 }
 
-#main_part > #grey_paper > #paper {
-    position: relative;
+.main_part > .grey_paper > .paper {
+  position: relative;
 
-    width: 20vw;
-    height: 20vw;
-    margin-top: -8vh;
-    margin-left: 15%;
-    padding: 5%;
+  width: 20vw;
+  height: 20vw;
+  margin-top: -8vh;
+  margin-left: 15%;
+  padding: 5%;
 
-    background: url("../images/poster-bg.png") center center no-repeat;
-    background-size: cover;
+  background: url("../images/poster-bg.png") center center no-repeat;
+  background-size: cover;
 }
 
-#main_part > #grey_paper > #paper > span {
-    display: flex;
+.main_part > .grey_paper > .paper > span {
+  display: flex;
 
-    width: 85%;
-    height: 100%;
+  width: 85%;
+  height: 100%;
 
-    text-transform: uppercase;
+  text-transform: uppercase;
 
-    color: #EBEF28;
+  color: #EBEF28;
 
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.6vw;
-    font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6vw;
+  font-weight: 500;
 }
 
-#main_part > .information {
-    position: absolute;
-    top: 62%;
-    left: 30px;
+.main_part > .information {
+  position: absolute;
+  top: 62%;
+  left: 30px;
 
-    padding: 3% 7%;
+  padding: 3% 7%;
 
-    text-transform: uppercase;
+  text-transform: uppercase;
 
-    color: white;
+  color: white;
 
-    font-family: 'Roboto', sans-serif;
-    font-size: 2.6vw;
-    font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.6vw;
+  font-weight: 500;
 }
 
-#main_part > .information > span {
-    display: block;
+.main_part > .information > span {
+  display: block;
 }
 
-#main_part > #repeat_bg {
-    display: block;
+.main_part > .repeat_bg {
+  display: block;
 
-    width: 100%;
-    height: 0;
-    padding-bottom: 200vh;
+  width: 100%;
+  height: 0;
+  padding-bottom: 200vh;
 
-    background: url("../images/repeat_bg.png") center center;
-    background-size: 30%;
+  background: url("../images/repeat_bg.png") center center;
+  background-size: 30%;
 }
 
-#main_part > #list {
-    position: absolute;
-    left: 6%;
+.main_part > .list {
+  position: absolute;
+  left: 6%;
 
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 
-    width: 35%;
-    margin-top: 105vh;
+  width: 35%;
+  margin-top: 105vh;
 }
 
-#main_part > #list > #list_items {
-    width: 100%;
-    margin-left: 5%;
+.main_part > .list > .list_items {
+  width: 100%;
+  margin-left: 5%;
 }
 
-#main_part > #list > #list_items > span {
-    text-transform: uppercase;
+.main_part > .list > .list_items > span {
+  text-transform: uppercase;
 
-    font-family: 'Roboto', sans-serif;
-    font-size: 2.5vw;
-    font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5vw;
+  font-weight: 500;
 }
 
-#main_part > #list > #list_items > p {
-    display: block;
+.main_part > .list > .list_items > p {
+  display: block;
 
-    margin-top: 4%;
-    margin-bottom: 10%;
-    margin-left: 10%;
+  margin-top: 4%;
+  margin-bottom: 10%;
+  margin-left: 10%;
 
-    text-transform: uppercase;
-    word-break: break-all;
+  text-transform: uppercase;
+  word-break: break-all;
 
-    font-family: 'Roboto', sans-serif;
-    font-size: 1vw;
-    font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1vw;
+  font-weight: 400;
 }
 
 .pink {
-    background-color: rgba(241, 72, 234, 0.7);
+  background-color: rgba(241, 72, 234, 0.7);
 }
 
-#info_space {
-    margin-top: 2%;
+.info_space {
+  margin-top: 2%;
 }
 
 .vert_line {
-    width: 5px;
+  width: 5px;
+}
+
+/*iPhone SE*/
+/* Portrait */
+@media all and (min-width: 320px) and (max-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  header > div > .title {
+    font-size: 28px;
+  }
+
+  header > div > .description {
+    font-size: 19px;
+  }
+
+  header > div > img {
+    width: 250px;
+  }
+
+  .main_part {
+    flex-direction: column;
+  }
+
+  .main_part > .plaint_white {
+    height: 80vh;
+  }
+
+  .main_part > .grey_paper {
+    position: static;
+
+    width: 100%;
+    height: 100vh;
+    margin-bottom: -55vh;
+  }
+
+  .main_part > .grey_paper > .green_shape {
+    height: 13%;
+  }
+
+  .main_part > .grey_paper > .paper {
+    width: 60vw;
+    height: 60vw;
+    margin-left: 10%;
+  }
+
+  .main_part > .grey_paper > .paper > span {
+    font-size: 5vw;
+  }
+
+  .main_part > .information {
+    position: static;
+    z-index: 1;
+
+    width: 86%;
+    margin-top: -10%;
+
+    font-size: 4vw;
+  }
+
+  .main_part > .repeat_bg {
+    padding-bottom: 90vh;
+
+    background-size: 40%;
+  }
+
+  .main_part > .list {
+    position: static;
+
+    width: 80%;
+    margin-top: 5vh;
+    margin-bottom: 20%;
+    margin-left: 10%;
+  }
+
+  .main_part > .list > .list_items {
+    margin-left: 7%;
+  }
+
+  .main_part > .list > .list_items > span {
+    font-size: 6vw;
+  }
+
+  .main_part > .list > .list_items > p {
+    margin-left: 5%;
+
+    font-size: 2.5vw;
+  }
 }
 
 
+/* Landscape */
+@media all and (min-width: 320px) and (max-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  header > div > .title {
+    font-size: 50px;
+  }
+
+  header > div > .description {
+    font-size: 35px;
+  }
+
+  header > div > img {
+    width: 360px;
+  }
+
+  .main_part {
+    flex-direction: column;
+  }
+
+  .main_part > .plaint_white {
+    height: 190vh;
+  }
+
+  .main_part > .grey_paper {
+    position: static;
+
+    width: 100%;
+    height: 100vh;
+  }
+
+  .main_part > .grey_paper > .green_shape {
+    height: 30%;
+  }
+
+  .main_part > .grey_paper > .paper {
+    width: 50vw;
+    height: 50vw;
+    margin-top: -15vh;
+    margin-left: 10%;
+  }
+
+  .main_part > .grey_paper > .paper > span {
+    font-size: 5vw;
+  }
+
+  .main_part > .information {
+    position: static;
+    z-index: 1;
+
+    width: 86%;
+
+    font-size: 4vw;
+  }
+
+  .main_part > .repeat_bg {
+    padding-bottom: 90vh;
+
+    background-size: 40%;
+  }
+
+  .main_part > .list {
+    position: static;
+
+    width: 80%;
+    margin-top: 15vh;
+    margin-bottom: 15%;
+    margin-left: 10%;
+  }
+
+  .main_part > .list > .list_items {
+    margin-left: 7%;
+  }
+
+  .main_part > .list > .list_items > span {
+    font-size: 6vw;
+  }
+
+  .main_part > .list > .list_items > p {
+    margin-left: 5%;
+
+    font-size: 2.5vw;
+  }
+
+  /*iPad Mini*/
+  /* Portrait */
+  @media  all and (min-width: 768px) and (max-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    header > div > .title {
+      font-size: 4vw;
+    }
+
+    header > div > .description {
+      font-size: 3vw;
+    }
+
+    header > div > img {
+      width: 40vw;
+    }
+
+    .main_part > .grey_paper {
+      top: 24%;
+      left: 45%;
+    }
+
+    .main_part > .grey_paper > .green_shape {
+      height: 17%;
+    }
+
+    .main_part > .grey_paper > .paper {
+      width: 30vw;
+      height: 30vw;
+      margin-top: -4vh;
+    }
+
+    .main_part > .grey_paper > .paper > span {
+      font-size: 2.3vw;
+    }
+
+    .main_part > .information {
+      top: 53%;
+    }
+
+    .main_part > .repeat_bg {
+      padding-bottom: 115vh;
+    }
+
+    .main_part > .list {
+      margin-top: 71vh;
+    }
+
+    .main_part > .list > .list_items > span {
+      font-size: 2.5vw;
+    }
+
+    .main_part > .list > .list_items > p {
+      font-size: 1.2vw;
+    }
+  }
+
+  /* Landscape*/
+  @media all and (min-width: 1024px) and (max-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+    header > div > .title {
+      font-size: 4.2vw;
+    }
+
+    header > div > .description {
+      font-size: 2.7vw;
+    }
+
+    header > div > img {
+      width: 34vw;
+    }
+
+    .main_part > .grey_paper > .paper {
+      width: 27vw;
+      height: 27vw;
+    }
+
+    .main_part > .grey_paper > .paper > span {
+      font-size: 2.3vw;
+    }
+
+    .main_part > .grey_paper {
+      top: 29%;
+    }
+
+    .main_part > .information {
+      top: 75%;
+    }
+
+    .main_part > .list {
+      margin-top: 100vh;
+    }
+
+    .main_part > .list > .list_items > span {
+      font-size: 2.5vw;
+    }
+
+    .main_part > .list > .list_items > p {
+      font-size: 1.2vw;
+    }
+
+    .main_part > .repeat_bg {
+      padding-bottom: 177vh;
+    }
+  }
 
 
 /*iPad Pro*/
 /* Portrait */
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-    header > div > #title {
-        font-size: 3.2vw;
-    }
+@media ll and (min-width: 1024px) and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  header > div > .title {
+    font-size: 3.2vw;
+  }
 
-    header > div > #description {
-        font-size: 2.6vw;
-    }
+  header > div > .description {
+    font-size: 2.6vw;
+  }
 
-    header > div > img {
-        width: 38vw;
-    }
+  header > div > img {
+    width: 38vw;
+  }
 
-    #main_part > .information {
-        top: 45%;
-    }
+  .main_part > .information {
+    top: 45%;
+  }
 
-    #main_part > #grey_paper > #green_shape {
-        height: 17%;
-    }
+  .main_part > .grey_paper > .green_shape {
+    height: 17%;
+  }
 
-    #main_part > #grey_paper > #paper {
-        width: 32vw;
-        height: 32vw;
-        margin-top: -4vh;
-    }
+  .main_part > .grey_paper > .paper {
+    width: 32vw;
+    height: 32vw;
+    margin-top: -4vh;
+  }
 
-    #main_part > #grey_paper > #paper > span {
-        font-size: 2.5vw;
-    }
+  .main_part > .grey_paper > .paper > span {
+    font-size: 2.5vw;
+  }
 
-    #main_part > #repeat_bg {
-        padding-bottom: 105vh;
-    }
+  .main_part > .repeat_bg {
+    padding-bottom: 105vh;
+  }
 
-    #main_part > #list {
-        margin-top: 62vh;
-    }
+  .main_part > .list {
+    margin-top: 62vh;
+  }
 
-    #main_part > #list > #list_items > span {
-        font-size: 2.7vw;
-    }
+  .main_part > .list > .list_items > span {
+    font-size: 2.7vw;
+  }
 
-    #main_part > #list > #list_items > p {
-        font-size: 1.2vw;
-    }
+  .main_part > .list > .list_items > p {
+    font-size: 1.2vw;
+  }
 }
 
 /* Landscape */
-@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
-    header > div > #title {
-        font-size: 3.7vw;
-    }
+@media all and (min-width: 1366px) and (max-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  header > div > .title {
+    font-size: 3.7vw;
+  }
 
-    header > div > #description {
-        font-size: 2.7vw;
-    }
+  header > div > .description {
+    font-size: 2.7vw;
+  }
 
-    header > div > img {
-        width: 24vw;
-    }
+  header > div > img {
+    width: 24vw;
+  }
 
-    #main_part > .information {
-        top: 60%;
-    }
+  .main_part > .information {
+    top: 60%;
+  }
 
-    #main_part > #grey_paper > #paper {
-        width: 25vw;
-        height: 25vw;
-    }
+  .main_part > .grey_paper > .paper {
+    width: 25vw;
+    height: 25vw;
+  }
 
-    #main_part > #grey_paper > #paper > span {
-        font-size: 2.3vw;
-    }
+  .main_part > .grey_paper > .paper > span {
+    font-size: 2.3vw;
+  }
 
-    #main_part > #repeat_bg {
-        padding-bottom: 170vh;
-    }
+  .main_part > .repeat_bg {
+    padding-bottom: 170vh;
+  }
 
-    #main_part > #list {
-        margin-top: 88vh;
-    }
+  .main_part > .list {
+    margin-top: 88vh;
+  }
 
-    #main_part > #list > #list_items > span {
-        font-size: 2.7vw;
-    }
+  .main_part > .list > .list_items > span {
+    font-size: 2.7vw;
+  }
 
-    #main_part > #list > #list_items > p {
-        font-size: 1.2vw;
-    }
+  .main_part > .list > .list_items > p {
+    font-size: 1.2vw;
+  }
 }
 
-
-
-
-/*iPad Mini*/
-/* Portrait */
-@media only screen and (min-device-width: 768px) and (max-device-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
-    header > div > #title {
-        font-size: 4vw;
-    }
-
-    header > div > #description {
-        font-size: 3vw;
-    }
-
-    header > div > img {
-        width: 40vw;
-    }
-
-    #main_part > #grey_paper {
-        top: 24%;
-        left: 45%;
-    }
-
-    #main_part > #grey_paper > #green_shape {
-        height: 17%;
-    }
-
-    #main_part > #grey_paper > #paper {
-        width: 30vw;
-        height: 30vw;
-        margin-top: -4vh;
-    }
-
-    #main_part > #grey_paper > #paper > span {
-        font-size: 2.3vw;
-    }
-
-    #main_part > .information {
-        top: 53%;
-    }
-
-    #main_part > #repeat_bg {
-        padding-bottom: 115vh;
-    }
-
-    #main_part > #list {
-        margin-top: 71vh;
-    }
-
-    #main_part > #list > #list_items > span {
-        font-size: 2.5vw;
-    }
-
-    #main_part > #list > #list_items > p {
-        font-size: 1.2vw;
-    }
-}
-
-/* Landscape*/
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
-    header > div > #title {
-        font-size: 4.2vw;
-    }
-
-    header > div > #description {
-        font-size: 2.7vw;
-    }
-
-    header > div > img {
-        width: 34vw;
-    }
-
-    #main_part > #grey_paper > #paper {
-        width: 27vw;
-        height: 27vw;
-    }
-
-    #main_part > #grey_paper > #paper > span {
-        font-size: 2.3vw;
-    }
-
-    #main_part > #grey_paper {
-        top: 29%;
-    }
-
-    #main_part > .information {
-        top: 75%;
-    }
-
-    #main_part > #list {
-        margin-top: 100vh;
-    }
-
-    #main_part > #list > #list_items > span {
-        font-size: 2.5vw;
-    }
-
-    #main_part > #list > #list_items > p {
-        font-size: 1.2vw;
-    }
-
-    #main_part > #repeat_bg {
-        padding-bottom: 177vh;
-    }
-}
-
-
-
-
-
-/*iPhone SE*/
-/* Portrait */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-    header > div > #title {
-        font-size: 28px;
-    }
-
-    header > div > #description {
-        font-size: 19px;
-    }
-
-    header > div > img {
-        width: 250px;
-    }
-
-    #main_part {
-        flex-direction: column;
-    }
-
-    #main_part > #plaint_white {
-        height: 80vh;
-    }
-
-    #main_part > #grey_paper {
-        position: static;
-
-        width: 100%;
-        height: 100vh;
-        margin-bottom: -55vh;
-    }
-
-    #main_part > #grey_paper > #green_shape {
-        height: 13%;
-    }
-
-    #main_part > #grey_paper > #paper {
-        width: 60vw;
-        height: 60vw;
-        margin-left: 10%;
-    }
-
-    #main_part > #grey_paper > #paper > span {
-        font-size: 5vw;
-    }
-
-    #main_part > .information {
-        position: static;
-        z-index: 1;
-
-        width: 86%;
-        margin-top: -10%;
-
-        font-size: 4vw;
-    }
-
-    #main_part > #repeat_bg {
-        padding-bottom: 90vh;
-
-        background-size: 40%;
-    }
-
-    #main_part > #list {
-        position: static;
-
-        width: 80%;
-        margin-top: 5vh;
-        margin-bottom: 20%;
-        margin-left: 10%;
-    }
-
-    #main_part > #list > #list_items {
-        margin-left: 7%;
-    }
-
-    #main_part > #list > #list_items > span {
-        font-size: 6vw;
-    }
-
-    #main_part > #list > #list_items > p {
-        margin-left: 5%;
-
-        font-size: 2.5vw;
-    }
-}
-
-
-/* Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-    header > div > #title {
-        font-size: 50px;
-    }
-
-    header > div > #description {
-        font-size: 35px;
-    }
-
-    header > div > img {
-        width: 360px;
-    }
-
-    #main_part {
-        flex-direction: column;
-    }
-
-    #main_part > #plaint_white {
-        height: 190vh;
-    }
-
-    #main_part > #grey_paper {
-        position: static;
-
-        width: 100%;
-        height: 100vh;
-    }
-
-    #main_part > #grey_paper > #green_shape {
-        height: 30%;
-    }
-
-    #main_part > #grey_paper > #paper {
-        width: 50vw;
-        height: 50vw;
-        margin-top: -15vh;
-        margin-left: 10%;
-    }
-
-    #main_part > #grey_paper > #paper > span {
-        font-size: 5vw;
-    }
-
-    #main_part > .information {
-        position: static;
-        z-index: 1;
-
-        width: 86%;
-
-        font-size: 4vw;
-    }
-
-    #main_part > #repeat_bg {
-        padding-bottom: 90vh;
-
-        background-size: 40%;
-    }
-
-    #main_part > #list {
-        position: static;
-
-        width: 80%;
-        margin-top: 15vh;
-        margin-bottom: 15%;
-        margin-left: 10%;
-    }
-
-    #main_part > #list > #list_items {
-        margin-left: 7%;
-    }
-
-    #main_part > #list > #list_items > span {
-        font-size: 6vw;
-    }
-
-    #main_part > #list > #list_items > p {
-        margin-left: 5%;
-
-        font-size: 2.5vw;
-    }
 }
