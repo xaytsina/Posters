@@ -2,13 +2,7 @@ html, body {
   width: 100%;
   height: 100%;
   margin: 0;
-  padding: 0;
-}
-
-.main_header {
-position: static;
-
-background: rgba(146, 241, 72, 0.7);
+  padding:  ;
 }
 
 header {
@@ -17,17 +11,11 @@ header {
 
   width: 100%;
   height: 150px;
-
-  font-family: 'Roboto',sans-serif;
 }
-
-
 
 header > div {
   margin-top: 30px;
   margin-left: 30px;
-
-background-color: rgba(146, 241, 72, 0.7);
 }
 
 header > div > .title {
@@ -37,25 +25,28 @@ header > div > .title {
 
   text-transform: uppercase;
 
-  font-size: 2.3vw;
+  font-family: "Roboto", sans-serif;
+  font-size: 4vw;
   font-weight: 500;
 }
 
 header > div > .description {
   display: block;
 
-  margin-top: 15px;
+  margin-top: 2vw;
 
   text-transform: uppercase;
 
-  font-size: 1.6vw;
-  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.1vw;
+  font-weight: 400;
 }
 
 header > div > img {
-  width: 19vw;
+  width: 25vw;
   height: auto;
-  margin-right: 50%;
+  margin-top: 1vw;
+  margin-left: 9vw;
 }
 
 .main_part {
@@ -67,12 +58,12 @@ header > div > img {
 
 .main_part > .plaint_white {
   width: 100%;
-  height: 100%;
+  height: 118vw;
 }
 
 .main_part > .grey_paper {
   position: absolute;
-  top: 15%;
+  top: 10vw;
   left: 40%;
 
   width: 50%;
@@ -83,7 +74,7 @@ header > div > img {
   display: block;
 
   width: 100%;
-  height: 30%;
+  height: 10vw;
 
   background-color: rgba(146, 241, 72, 0.7);
 }
@@ -91,9 +82,9 @@ header > div > img {
 .main_part > .grey_paper > .paper {
   position: relative;
 
-  width: 20vw;
-  height: 20vw;
-  margin-top: -8vh;
+  width: 30vw;
+  height: 30vw;
+  margin-top: -5vw;
   margin-left: 15%;
   padding: 5%;
 
@@ -109,31 +100,31 @@ header > div > img {
 
   text-transform: uppercase;
 
-  color: #EBEF28;
+  color: .EBEF28;
 
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.6vw;
   font-weight: 500;
 }
 
 .main_part > .information {
   position: absolute;
-  top: 62%;
+  top: 46vw;
   left: 30px;
 
-  padding: 3% 7%;
+    padding: 3% 7%;
+}
+
+.main_part > .information > span {
+  display: block;
 
   text-transform: uppercase;
 
   color: white;
 
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 2.6vw;
   font-weight: 500;
-}
-
-.main_part > .information > span {
-  display: block;
 }
 
 .main_part > .repeat_bg {
@@ -141,7 +132,7 @@ header > div > img {
 
   width: 100%;
   height: 0;
-  padding-bottom: 200vh;
+  padding-bottom: 118vw;
 
   background: url("../images/repeat_bg.png") center center;
   background-size: 30%;
@@ -155,7 +146,7 @@ header > div > img {
   flex-direction: row;
 
   width: 35%;
-  margin-top: 105vh;
+  margin-top: 68vw;
 }
 
 .main_part > .list > .list_items {
@@ -166,9 +157,9 @@ header > div > img {
 .main_part > .list > .list_items > span {
   text-transform: uppercase;
 
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 2.5vw;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .main_part > .list > .list_items > p {
@@ -179,11 +170,11 @@ header > div > img {
   margin-left: 10%;
 
   text-transform: uppercase;
-  word-break: break-all;
 
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1vw;
-  font-weight: 400;
+  font-weight: 300;
+  line-height: 1.6;
 }
 
 .pink {
@@ -195,12 +186,262 @@ header > div > img {
 }
 
 .vert_line {
-  width: 5px;
+  width: .5vw;
 }
+
+
+/*Footer*/
+footer {
+  bottom: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 18vw;
+  margin-top: 5vw;
+
+  justify-content: flex-end;
+  align-items: center;
+}
+
+footer > div {
+  display: flex;
+  flex-direction: column;
+
+  width: 90%;
+  height: 16vw;
+  margin-top: -9vw;
+  padding-top: 2vw;
+
+  text-align: center;
+
+  color: rgba(241, 72, 234, 0.7);
+  background-color: rgba(146, 241, 72, 0.7);
+
+  font-family: sans-serif;
+
+  justify-content: flex-start;
+  align-items: center;
+}
+
+footer > div > span {
+  font-family: "Roboto", sans-serif;
+  font-size: 3vw;
+  font-weight: 40 ;
+}
+
+footer > span {
+  width: 100%;
+  margin-top: -4vw;
+
+  text-align: center;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 16vw;
+  font-weight: 300;
+  line-height: .68em;
+}
+
+.footer_space_top {
+  margin-top: 1.5vw;
+}
+
+
+
+
+/*iPad Pro*/
+/* Portrait */
+@media all screen and (min-width: 1024px) and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  header > div > .title {
+    font-size: 3.2vw;
+  }
+
+  header > div > .description {
+    font-size: 2.6vw;
+  }
+
+  header > div > img {
+  width: 30vw;
+  }
+
+  .main_part > .information {
+  top: 49vw;
+  }
+
+  .main_part > .grey_paper > .paper {
+    width: 32vw;
+    height: 32vw;
+    margin-top: -4vh;
+  }
+
+  .main_part > .grey_paper > .paper > span {
+    font-size: 2.5vw;
+  }
+
+  .main_part > .repeat_bg {
+    padding-bottom: 200vw;
+  }
+
+  .main_part > .list {
+    margin-top: 70vw;
+  }
+
+  .main_part > .list > .list_items > span {
+    font-size: 3vw;
+  }
+
+  .main_part > .list > .list_items > p {
+    font-size: 2vw;
+  }
+}
+
+
+/* Landscape */
+@media all screen and (min-width: 1366px) and (max-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+header > div > .title {
+  font-size: 3.7vw;
+}
+
+header > div > .description {
+  font-size: 2.7vw;
+}
+
+
+.main_part > .information {
+  top: 60%;
+}
+
+.main_part > .grey_paper > .paper > span {
+  font-size: 2.3vw;
+}
+
+.main_part > .repeat_bg {
+  padding-bottom: 170vh;
+}
+
+.main_part > .list {
+  margin-top: 88vh;
+}
+
+.main_part > .list > .list_items > span {
+  font-size: 2.7vw;
+}
+
+.main_part > .list > .list_items > p {
+  font-size: 1.2vw;
+}
+}
+
+
+
+
+/*iPad Mini*/
+/* Portrait */
+@media all screen and (min-width: 768px) and (max-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  header > div > .title {
+    font-size: 4vw;
+  }
+
+  header > div > .description {
+    font-size: 3vw;
+  }
+
+  header > div > img {
+    width: 40vw;
+    margin-top: 5vw;
+    margin-left: 0;
+  }
+
+  .main_part > .grey_paper {
+    top: 24%;
+    left: 45%;
+  }
+
+
+  .main_part > .grey_paper > .paper {
+    width: 30vw;
+    height: 30vw;
+    margin-top: -4vh;
+  }
+
+  .main_part > .grey_paper > .paper > span {
+    font-size: 2.3vw;
+  }
+
+  .main_part > .information {
+     top: 65vw;
+   }
+
+  .main_part > .repeat_bg {
+    padding-bottom: 124vh;
+  }
+
+  .main_part > .list {
+    margin-top: 85vw;
+  }
+
+  .main_part > .list > .list_items > span {
+    font-size: 2.2vw;
+  }
+
+  .main_part > .list > .list_items > p {
+    font-size: 1.5vw;
+  }
+}
+
+/* Landscape*/
+@media all screen and (min-width: 1024px) and (max-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  header > div > .title {
+    font-size: 4.2vw;
+  }
+
+  header > div > .description {
+    font-size: 2.7vw;
+  }
+
+  header > div > img {
+    width: 34vw;
+    margin-top: 5vw;
+    margin-left: 0;
+  }
+
+  .main_part > .grey_paper > .paper > span {
+    font-size: 2.3vw;
+  }
+
+  .main_part > .grey_paper {
+    top: 29%;
+  }
+
+  .main_part > .information {
+    top: 59vw;
+  }
+
+  .main_part > .list {
+    margin-top: 78vw;
+  }
+
+  .main_part > .list > .list_items > span {
+    font-size: 2.5vw;
+  }
+
+  .main_part > .list > .list_items > p {
+    font-size: 1.4vw;
+  }
+
+  .main_part > .repeat_bg {
+    padding-bottom: 150vw;
+  }
+}
+
+
+
+
 
 /*iPhone SE*/
 /* Portrait */
-@media all and (min-width: 320px) and (max-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+@media all screen and (min-width: 320px) and (max-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   header > div > .title {
     font-size: 28px;
   }
@@ -211,6 +452,8 @@ header > div > img {
 
   header > div > img {
     width: 250px;
+    margin-top: 14vw;
+    margin-left: 2vw;
   }
 
   .main_part {
@@ -230,13 +473,14 @@ header > div > img {
   }
 
   .main_part > .grey_paper > .green_shape {
-    height: 13%;
+    height: 20vw;
   }
 
   .main_part > .grey_paper > .paper {
     width: 60vw;
     height: 60vw;
-    margin-left: 10%;
+    margin-top: -10vw;
+    margin-left: 15%;
   }
 
   .main_part > .grey_paper > .paper > span {
@@ -273,19 +517,27 @@ header > div > img {
   }
 
   .main_part > .list > .list_items > span {
-    font-size: 6vw;
+    font-size: 8vw;
   }
 
   .main_part > .list > .list_items > p {
     margin-left: 5%;
 
-    font-size: 2.5vw;
+    font-size: 3.7vw;
+  }
+
+  footer {
+    margin-top: 0;
+  }
+
+  .vert_line {
+    width: 1vw;
   }
 }
 
 
 /* Landscape */
-@media all and (min-width: 320px) and (max-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+@media all screen and (min-width: 320px) and (max-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   header > div > .title {
     font-size: 50px;
   }
@@ -296,6 +548,7 @@ header > div > img {
 
   header > div > img {
     width: 360px;
+    margin-top: 5vw;
   }
 
   .main_part {
@@ -321,7 +574,7 @@ header > div > img {
     width: 50vw;
     height: 50vw;
     margin-top: -15vh;
-    margin-left: 10%;
+    margin-left: 18.5vw;
   }
 
   .main_part > .grey_paper > .paper > span {
@@ -365,203 +618,4 @@ header > div > img {
 
     font-size: 2.5vw;
   }
-
-  /*iPad Mini*/
-  /* Portrait */
-  @media  all and (min-width: 768px) and (max-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
-    header > div > .title {
-      font-size: 4vw;
-    }
-
-    header > div > .description {
-      font-size: 3vw;
-    }
-
-    header > div > img {
-      width: 40vw;
-    }
-
-    .main_part > .grey_paper {
-      top: 24%;
-      left: 45%;
-    }
-
-    .main_part > .grey_paper > .green_shape {
-      height: 17%;
-    }
-
-    .main_part > .grey_paper > .paper {
-      width: 30vw;
-      height: 30vw;
-      margin-top: -4vh;
-    }
-
-    .main_part > .grey_paper > .paper > span {
-      font-size: 2.3vw;
-    }
-
-    .main_part > .information {
-      top: 53%;
-    }
-
-    .main_part > .repeat_bg {
-      padding-bottom: 115vh;
-    }
-
-    .main_part > .list {
-      margin-top: 71vh;
-    }
-
-    .main_part > .list > .list_items > span {
-      font-size: 2.5vw;
-    }
-
-    .main_part > .list > .list_items > p {
-      font-size: 1.2vw;
-    }
-  }
-
-  /* Landscape*/
-  @media all and (min-width: 1024px) and (max-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
-    header > div > .title {
-      font-size: 4.2vw;
-    }
-
-    header > div > .description {
-      font-size: 2.7vw;
-    }
-
-    header > div > img {
-      width: 34vw;
-    }
-
-    .main_part > .grey_paper > .paper {
-      width: 27vw;
-      height: 27vw;
-    }
-
-    .main_part > .grey_paper > .paper > span {
-      font-size: 2.3vw;
-    }
-
-    .main_part > .grey_paper {
-      top: 29%;
-    }
-
-    .main_part > .information {
-      top: 75%;
-    }
-
-    .main_part > .list {
-      margin-top: 100vh;
-    }
-
-    .main_part > .list > .list_items > span {
-      font-size: 2.5vw;
-    }
-
-    .main_part > .list > .list_items > p {
-      font-size: 1.2vw;
-    }
-
-    .main_part > .repeat_bg {
-      padding-bottom: 177vh;
-    }
-  }
-
-
-/*iPad Pro*/
-/* Portrait */
-@media ll and (min-width: 1024px) and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-  header > div > .title {
-    font-size: 3.2vw;
-  }
-
-  header > div > .description {
-    font-size: 2.6vw;
-  }
-
-  header > div > img {
-    width: 38vw;
-  }
-
-  .main_part > .information {
-    top: 45%;
-  }
-
-  .main_part > .grey_paper > .green_shape {
-    height: 17%;
-  }
-
-  .main_part > .grey_paper > .paper {
-    width: 32vw;
-    height: 32vw;
-    margin-top: -4vh;
-  }
-
-  .main_part > .grey_paper > .paper > span {
-    font-size: 2.5vw;
-  }
-
-  .main_part > .repeat_bg {
-    padding-bottom: 105vh;
-  }
-
-  .main_part > .list {
-    margin-top: 62vh;
-  }
-
-  .main_part > .list > .list_items > span {
-    font-size: 2.7vw;
-  }
-
-  .main_part > .list > .list_items > p {
-    font-size: 1.2vw;
-  }
-}
-
-/* Landscape */
-@media all and (min-width: 1366px) and (max-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
-  header > div > .title {
-    font-size: 3.7vw;
-  }
-
-  header > div > .description {
-    font-size: 2.7vw;
-  }
-
-  header > div > img {
-    width: 24vw;
-  }
-
-  .main_part > .information {
-    top: 60%;
-  }
-
-  .main_part > .grey_paper > .paper {
-    width: 25vw;
-    height: 25vw;
-  }
-
-  .main_part > .grey_paper > .paper > span {
-    font-size: 2.3vw;
-  }
-
-  .main_part > .repeat_bg {
-    padding-bottom: 170vh;
-  }
-
-  .main_part > .list {
-    margin-top: 88vh;
-  }
-
-  .main_part > .list > .list_items > span {
-    font-size: 2.7vw;
-  }
-
-  .main_part > .list > .list_items > p {
-    font-size: 1.2vw;
-  }
-}
-
 }
