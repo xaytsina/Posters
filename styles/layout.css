@@ -487,6 +487,7 @@ footer > span {
 
   .main_part > .grey_paper > .paper > span {
     font-size: 5vw;
+    line-height: 1.5;
   }
 
   .main_part > .information {
@@ -496,13 +497,13 @@ footer > span {
     width: 86%;
     margin-top: -10%;
 
-    font-size: 4vw;
+    font-size: 2vw;
   }
 
   .main_part > .repeat_bg {
     padding-bottom: 90vh;
 
-    background-size: 40%;
+    background-size: 30%;
   }
 
   .main_part > .list {
